@@ -1,0 +1,44 @@
+/* * {
+    border: 1px solid black;
+} */
+
+
+.row {
+    background-color: #20D3C2;
+}
+
+
+.border {
+    border: 1px solid black !important;
+}
+
+
+.btn {
+    background-color: #20D3C2;
+    color: white;
+}
+
+
+.navbar-nav {
+    display: inline-block;
+}
+    .navbar-nav .dropdown {
+        display: inline-block;
+    }
+
+
+.nav-info {
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    color: white;
+    display: inline-block;
+}
+    .nav-info a {
+        padding: 5px;
+        color: white;
+        text-decoration:none;
+    }
+
+.nav-buttons a {
+    margin: 0px 0.75rem 0px 0.75rem;
+}
