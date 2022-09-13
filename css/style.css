@@ -268,6 +268,7 @@ html, body {
 
     .showcase .showcase-body p {
         margin: 2rem 0;
+        font-size: 1em;
     }
 
     .showcase img {
@@ -317,8 +318,29 @@ html, body {
         }
 
 
+/* test */
+.test {
 
-
+}
+    .test .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: var(--font-play);
+        font-size: 2.25rem;
+        width: 40%;
+        text-align: center;
+    }
+    .test .container .text-green {
+        color: var(--color-theme);
+    }
+    .test .container .textstuff img {
+    }
+        .test .container .textstuff p {
+            font-family: var(--font-roboto);
+            font-size: 1rem;
+            font-weight: var(--font-weight-regular);
+        }
 
 
 
