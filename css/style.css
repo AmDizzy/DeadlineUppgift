@@ -443,6 +443,46 @@ html, body {
 
 
 
+/* new-arrivals */
+
+.new-arrivals .grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(50px, 600px));
+    grid-template-rows: repeat(1, minmax(50px, 450px));
+}
+
+.new-arrivals .category-box {
+    position: relative;
+    background-color: var(--color-gray-3);
+    border-radius: var(--border-radius-small);
+    overflow: hidden;
+}
+
+.new-arrivals .category-box img {
+    height: 87.5%;
+}
+
+    .new-arrivals .category-box .category-box-title {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 12.5%;
+        background-color: var(--color-theme-dark);
+        color: var(--color-theme);
+        padding: 1rem 1rem;
+        font-weight: var(--font-weight-medium);
+        font-size: 1.125rem;
+        color: var(--color-white);
+    }
+        .new-arrivals .category-box:hover .category-box-title {
+            height: 100%;
+            padding-top: 60%;
+            background-color: hwb(231 5% 76% / 0.85);
+        }
+
+
 
 
 @media (min-width: 578px) {
