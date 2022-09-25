@@ -4,6 +4,7 @@
     --color-theme: #20D3C2;
     --color-theme-light: #EDFCFA;
     --color-theme-dark: #0E153D;
+    --color-theme-dark-65: #50546E;
     --color-dark: #080C24;
     --color-white: #ffffff;
     --color-gray-0: #AAAAAA;
@@ -551,7 +552,7 @@ html, body {
             .new-arrivals .category-box:hover .category-box-card {
                 height: 100%;
                 padding-top: 60%;
-                opacity: 0.85;
+                opacity: 85%;
             }
 
 
@@ -583,7 +584,7 @@ html, body {
                 text-decoration: line-through;
             }
 
-            
+
             .new-arrivals .category-box .category-box-card .card-discount-price {
                 color: var(--color-theme);
                 font-size: 1.5rem;
@@ -593,7 +594,55 @@ html, body {
             }
 
 
-    
+
+.site-title {
+    background-color: var(--color-theme-dark-65);
+    color: var(--color-white);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+    .site-title .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .site-title h1 {
+        color: var(--color-theme);
+        font-size: 1.5rem;
+        font-weight: var(--font-weight-medium);
+        margin: 0;
+    }
+
+
+    .site-title .breadcrumb {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        list-style: none;
+    }
+        .site-title .breadcrumb li {
+            display: inline;
+            font-size: 1rem;
+            }
+            .site-title .breadcrumb li+li:before {
+                padding: 0 0.7rem 0 0.7rem;
+                color: var(--color-white);
+                content: "/\00a0";
+            }
+
+
+            .site-title .breadcrumb li a {
+                color: var(--color-theme);
+                text-decoration: none;
+            }
+                .site-title .breadcrumb li a:hover {
+                    color: #01447e;
+                    text-decoration: underline;
+                }
+
+
 
 
 @media (min-width: 578px) {
