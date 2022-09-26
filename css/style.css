@@ -60,6 +60,21 @@ html, body {
     }
 
 
+.btn-theme-dark {
+    background-color: var(--color-theme-dark);
+    color: var(--color-white);
+    border-radius: var(--border-radius-medium);
+    font-weight: var(--font-weight-medium);
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    transition: 0.3s ease-in-out;
+}
+    .btn-theme-dark:hover {
+        background-color: var(--color-white);
+        color: var(--color-theme);
+    }
+
+
 .btn-white {
     background-color: var(--color-white);
     color: var(--color-theme);
@@ -813,6 +828,42 @@ a {
             filter: brightness(90%);
         }
 
+
+/* new-customers */
+.new-customers {
+    margin-top: 6rem;
+    background-color: var(--color-gray-1);
+}
+    .new-customers .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 26rem;
+    }
+        .new-customers .container .new-customer-sale {
+            text-align: center;
+            background-color: var(--color-theme);
+            height: 100%;
+            width: 318px;
+        }
+            .new-customers .container .new-customer-sale h1 {
+                padding-top: 10rem;
+            }
+            .new-customers .container .new-customer-sale button {
+            }
+
+        
+        .new-customers .container .learn-more {
+            padding-top: 10rem;
+            height: 100%;
+            width: 40rem;
+        }
+            .new-customers .container .learn-more p {
+                color: var(--color-white);
+                width: 100%;
+            }
+            .new-customers .container .learn-more button {
+            }
 
 
 @media (min-width: 578px) {
