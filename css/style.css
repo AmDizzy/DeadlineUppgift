@@ -437,7 +437,7 @@ a {
         .header-top .menu-links a {
             color: var(--color-white);
             text-decoration: none;
-            margin: 01.2rem;
+            margin: 0 1.2rem;
             transition: 0.3s ease-in-out;
         }
             .header-top .menu-links a:hover {
